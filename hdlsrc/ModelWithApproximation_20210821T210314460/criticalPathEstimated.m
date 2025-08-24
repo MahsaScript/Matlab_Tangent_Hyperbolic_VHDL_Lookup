@@ -1,0 +1,13 @@
+open_system('gm_ModelWithApproximation_20210821T210314460');
+cs.HiliteType = 'user2';
+cs.ForegroundColor = 'black';
+cs.BackgroundColor = 'lightblue';
+set_param(0, 'HiliteAncestorsData', cs);
+hilite_system('gm_ModelWithApproximation_20210821T210314460/Input1', 'user2');
+annotate_port('gm_ModelWithApproximation_20210821T210314460/Input1', 0, 1, 'cp : 2.233 ns');
+cs.HiliteType = 'user1';
+cs.ForegroundColor = 'black';
+cs.BackgroundColor = 'blue';
+set_param(0, 'HiliteAncestorsData', cs);
+hilite_system('gm_ModelWithApproximation_20210821T210314460/Input1/LimitedCounter', 'user1');
+annotate_port('gm_ModelWithApproximation_20210821T210314460/Input1/LimitedCounter', 0, 1, 'cp : 2.233 ns');

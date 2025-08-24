@@ -1,0 +1,165 @@
+[
+ {
+  "sid":"ModelWithApproximation_20210821T210314460",
+  "className":"Simulink.BlockDiagram",
+  "icon":"ModelWithApproximation_20210821T2103144600",
+  "name":"ModelWithApproximation_20210821T210314460",
+  "label":"ModelWithApproximation_20210821T210314460*",
+  "parent":"",
+  "inspector":{
+   "params":[
+    "ModelVersion",
+    "LastModifiedDate",
+    "LibraryLinkDisplay",
+    "ModelBrowserVisibility",
+    "Dirty",
+    "Description"
+   ],
+   "values":[
+    "1.0",
+    "Mon Feb 03 00:35:25 2020",
+    "disabled",
+    "on",
+    "on",
+    ""
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":[
+  ]
+ },
+ {
+  "sid":"ModelWithApproximation_20210821T210314460:6",
+  "className":"Repeating Sequence Stair",
+  "icon":"ModelWithApproximation_20210821T2103144602",
+  "name":"Input1",
+  "label":"Input1",
+  "parent":"ModelWithApproximation_20210821T210314460",
+  "inspector":{
+   "params":[
+    "OutValues",
+    "tsamp",
+    "OutMin",
+    "OutMax",
+    "OutDataTypeStr",
+    "LockScale"
+   ],
+   "values":[
+    "InputValues_20210821T203440345(:,1)",
+    "-1",
+    "[]",
+    "[]",
+    "fixdt(1,16)",
+    "off"
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"SubSystem",
+   "masktype":"Repeating Sequence Stair"
+  }
+ },
+ {
+  "sid":"ModelWithApproximation_20210821T210314460:6:2",
+  "className":"Counter Limited",
+  "icon":"ModelWithApproximation_20210821T2103144602",
+  "name":"LimitedCounter",
+  "label":"LimitedCounter",
+  "parent":"ModelWithApproximation_20210821T210314460:6",
+  "inspector":{
+   "params":[
+    "uplimit",
+    "tsamp"
+   ],
+   "values":[
+    "nn",
+    "tsamp"
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"SubSystem",
+   "masktype":"Counter Limited"
+  }
+ },
+ {
+  "sid":"ModelWithApproximation_20210821T210314460:6:2:3",
+  "className":"Real World Value Increment",
+  "icon":"ModelWithApproximation_20210821T2103144602",
+  "name":"Increment Real World",
+  "label":"Increment Real World",
+  "parent":"ModelWithApproximation_20210821T210314460:6:2",
+  "inspector":{
+   "params":[
+   ],
+   "values":[
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"SubSystem",
+   "masktype":"Real World Value Increment"
+  }
+ },
+ {
+  "sid":"ModelWithApproximation_20210821T210314460:6:2:5",
+  "className":"Wrap To Zero",
+  "icon":"ModelWithApproximation_20210821T2103144602",
+  "name":"Wrap To Zero",
+  "label":"Wrap To Zero",
+  "parent":"ModelWithApproximation_20210821T210314460:6:2",
+  "inspector":{
+   "params":[
+    "Threshold"
+   ],
+   "values":[
+    "uplimit"
+   ],
+   "tabs":[
+   ],
+   "tabs_idx":[
+   ]
+  },
+  "viewer":{
+   "jshandler":"webview/handlers/ElementHandler"
+  },
+  "obj_viewer":[
+  ],
+  "finder":{
+   "blocktype":"SubSystem",
+   "masktype":"Wrap To Zero"
+  }
+ }
+]

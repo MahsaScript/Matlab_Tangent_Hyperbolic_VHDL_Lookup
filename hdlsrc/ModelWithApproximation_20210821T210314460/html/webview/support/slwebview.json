@@ -1,0 +1,29 @@
+{
+ "baseUrl":"support/slwebview_files",
+ "homeHid":1,
+ "initialElement":"",
+ "sections":[
+  {
+   "hid":1,
+   "sid":"ModelWithApproximation_20210821T210314460",
+   "name":"ModelWithApproximation_20210821T210314460",
+   "fullname":"ModelWithApproximation_20210821T210314460",
+   "label":"ModelWithApproximation_20210821T210314460*",
+   "parent":0,
+   "descendants":[
+    2,
+    3,
+    4,
+    5
+   ],
+   "hierarchyUrl":"support/slwebview_files/ModelWithApproximation_20210821T210314460_h_1.json",
+   "backingUrl":"support/slwebview_files/ModelWithApproximation_20210821T210314460_m.json"
+  }
+ ],
+ "optViews":[
+ ],
+ "display":{
+  "informer":false
+ },
+ "iconsUrl":"support/slwebview_files/ModelWithApproximation_20210821T210314460_icons.css"
+}
